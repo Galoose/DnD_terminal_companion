@@ -21,7 +21,7 @@ My personal DnD companion, built in bash using very few dependencies (all of whi
 Run the following command in your terminal:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/Galoose/DnD_terminal_companion/refs/heads/main/_setup.sh)
+bash <(curl -fSL https://raw.githubusercontent.com/Galoose/DnD_terminal_companion/refs/heads/main/_setup.sh)
 ```
 
 This will:
