@@ -28,8 +28,8 @@ fi
 read -n 1 -p "Proceed with directory setup? (y/N) " answer
 echo "" # Add a newline after the input
 if [[ "$answer" == "y" ]] || [[ "$answer" == "Y" ]]; then
-    mkdir $INSTALL_DIR/DnD
-    echo "Made directory \"$INSTALL_DIR/DnD\"."
+    mkdir $INSTALL_DIR
+    echo "Made directory \"$INSTALL_DIR\"."
 
     cd ~/DnD
 
@@ -37,7 +37,7 @@ if [[ "$answer" == "y" ]] || [[ "$answer" == "Y" ]]; then
         ./Quests/{Notes,Completed-quests,Side-quests,Current-campaign-goals} \
         ./Items/{Monster-loot,Adventuring-gear,Quest-items,Magic-items}
 
-    echo "Made following directories in $INSTALL_DIR/DnD:"
+    echo "Made following directories in $INSTALL_DIR:"
     find . -type d
 
     read -n 1 -p "Proceed with code download? (y/N) " choice
