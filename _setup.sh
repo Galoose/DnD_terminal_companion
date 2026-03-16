@@ -31,7 +31,7 @@ if [[ "$answer" == "y" ]] || [[ "$answer" == "Y" ]]; then
     mkdir $INSTALL_DIR
     echo "Made directory \"$INSTALL_DIR\"."
 
-    cd ~/DnD
+    cd $INSTALL_DIR
 
     mkdir -p $INSTALL_DIR/Spells/spell-source \
         ./Quests/{Notes,Completed-quests,Side-quests,Current-campaign-goals} \
